@@ -6,7 +6,6 @@ export default class ShindenPlSearchEngine implements ISearchEngine {
     name: string = "Shinden.pl";
     language: Languages = Languages.PL;
     async searchAnime(name: string): Promise<Anime[]> {
-        // TODO: Searching anime with details...
-        return [];
+        throw new Error("Method not implemented.");
     };
 }

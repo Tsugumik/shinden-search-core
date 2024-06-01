@@ -6,7 +6,6 @@ export default class JikanSearchEngine implements ISearchEngine {
     name: string = "Jikan (MyAnimeList)";
     language: Languages = Languages.EN;
     async searchAnime(name: string): Promise<Anime[]> {
-        // TODO: Searching anime with details...
-        return [];
+        throw new Error("Method not implemented.");
     };
 }
